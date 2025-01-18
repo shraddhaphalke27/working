@@ -1,0 +1,53 @@
+"""
+<div className="bg-white p-1">             
+             {isGenerated && (                
+              <div className="h-auto text-left p-1 ml-7 mr-10 mt-5">
+                <span className='font-semibold'>  Subject Line:  Stelara - Proven Efficacy in Active Psoriatic Arthritis (PsA)                  
+                </span>
+                <h1 className="text-purple-900 text-3xl mt-6 mb-5">Stelara  - Providing Relief for Patients with Active 
+                  Psoriatic Arthritis (PsA)</h1>
+                <span className='mb-5'>The email is intended for Healthcare professionals only. 
+                  Please see the end of this mail for prescribing information on Stelara. </span>
+
+                <p className='mt-4'>Stelara is approved for the treatment of active psoriatic arthritis (PsA) in adult and pediatric patients 6 years and older. 
+                  It is a human interleukin-12 and -23 antagonist that works by disrupting the 
+                  interaction of these cytokines with a shared cell-surface receptor chain, IL-12Rβ1. </p>
+                <h3 className='mt-4 font-semibold'>How does it work:</h3>
+                <span>Stelara targets the p40 protein subunit used by both IL-12 and IL-23 cytokines, 
+                  which are involved in inflammatory and immune responses. By disrupting their signaling and cytokine cascades, 
+                  Stelara helps reduce the chronic inflammation associated with PsA.</span>
+                  <h1 className='mt-6 text-3xl text-purple-900'>Important Safety Information </h1>
+                  <h2 className='mt-3 text-2xl text-purple-900'>Contraindications:</h2> 
+                  <span>Stelara is contraindicated in patients with clinically significant 
+                    hypersensitivity to ustekinumab or any of the excipients in the medication. </span>
+                    <h2 className='mt-3 text-2xl text-purple-900'>Side Effects:</h2> 
+                    <span>The most common adverse reactions reported in clinical trials were nasopharyngitis, upper respiratory tract infection, headache, and fatigue. 
+                      Serious infections, malignancies, and hypersensitivity reactions have also been reported</span>
+                      <h2 className='mt-3 text-2xl text-purple-900'>Adverse Events:</h2> 
+                        <span>Infections, including serious and clinically significant infections, have occurred in 
+                        patients receiving Stelara. Theoretical risk for particular infections should be considered, and patients should be evaluated for tuberculosis prior to treatment. 
+                        Stelara may also increase the risk of malignancy and hypersensitivity reactions. </span>
+                      <h2 className='mt-3 text-2xl text-purple-900'>Warnings and Precautions:</h2> 
+                      <span>Stelara should not be started during any clinically important active infection. 
+                      If a serious infection or clinically significant infection develops, treatment should be discontinued until the infection resolves.  
+                       Live vaccines should be avoided during treatment with Stelara. </span>
+
+                      <h3 className='mt-6 mb-5'>For full prescribing information of Stelara, please click here: [Insert link for full prescribing information]. </h3>
+
+                     <span>For more information on Stelara, please click here: [Insert link for brand website]. </span>
+
+                      <h2 className='mt-6 mb-5'>Best Regards, </h2>
+                      <h3>[Insert your name] </h3>
+                      <h2>[Insert your title] </h2>
+
+ 
+                
+                </div> )} 
+              </div>
+"""
+Act as react specialist.
+Consider above my div i need to add pagination, as attached in image on first page i will able to view as numbers < 1 2 3 4 > with < > icons. 
+by defalt my first 1 page number is highlighted and showing information till "Side Effects".
+when i click on two then remaining information will be show and so on ....
+give me the updated code for this above div
+analyse the attached image. 
